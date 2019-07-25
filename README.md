@@ -2,9 +2,11 @@
 
 ### Neural Networks Vs Recurrent Neural Network (RNN)
 
-A Conceptual between an ANN (artificial neural network) and RNN is that ANN are traditional neural networks which only transmit data in a sequencial manner. The Data can only be forwarded to the next layer in the Network but not backwards. In other words these are feed-foward networks, and they cannot form a loop. 
+The basic difference between an ANN (artificial neural network) and RNN is that ANN are traditional neural networks, that only transmit data in a sequencial manner. The Data can only move forward to the next layer in the Network but not backwards. In other words these are feed-foward networks, and they cannot form a loop. 
 
-The Recurrent Neural Network can pass their output to theirselves, and hence Loop is formed. The process the input from one or multiple channels, and generate output that would be passed to itself. 
+In a Recurrent Neural Network a perceptron can pass it's output to itself, and hence a Loop is formed. They process the input from one or multiple channels, and generate output that would be passed to to theirselves as input again. 
+
+Another key point in understanding the RNN is that the output generated from a perceptron in RNN, is a memory cell, which helps preserve the state of the perceptron, hence forming LSTM - Long Short Term Memory. discussed later.
 
 ##### Real Life Example
 
