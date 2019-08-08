@@ -8,7 +8,7 @@ In a Recurrent Neural Network a perceptron can pass it's output to itself, and h
 
 Another key point in understanding the RNN is that the output generated from a perceptron in RNN, is a memory cell, which helps preserve the state of the perceptron, hence forming LSTM - Long Short Term Memory. discussed later.
 
-##### Real Life Example
+##### Another Example
 
 We've done the classification of Iris Dataset using the ANN, where we trained our model, comprising of two layers of Neurons for processing (feed-forward), and additional one layer for giving output as final result. 
 Important thing to note here is that, each layer in the network remembers the input and forgets it once it has processed and passed it to the next layer in line. Once the processed output has gone to the next perceptron the previous perceptron will forget it. 
