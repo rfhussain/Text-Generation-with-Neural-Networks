@@ -14,3 +14,5 @@ We've done the classification of Iris Dataset using the ANN, where we trained ou
 Important thing to note here is that, each layer in the network remembers the input and forgets it once it has processed and passed it to the next layer in line. Once the processed output has gone to the next perceptron the previous perceptron will forget it. 
 
 This will help the ANN to predict the classification of a newly found unclassified Iris flower, by feeding it's features to a trained model but it will not predict that 
+
+Here's the code with full description, how we can use RNN to generate text given a text file
