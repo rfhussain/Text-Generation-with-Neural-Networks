@@ -6,7 +6,7 @@ The basic difference between an ANN (artificial neural network) and RNN is that 
 
 In a Recurrent Neural Network a perceptron can pass it's output to itself, and hence a Loop is formed. They process the input from one or multiple channels, and generate output that would be passed to to theirselves as input again. 
 
-Another key point in understanding the RNN is that the output generated from a perceptron in RNN, is a memory cell, which helps preserve the state of the perceptron, hence forming LSTM - Long Short Term Memory. discussed later.
+Another key point in understanding the RNN is that the output generated from a perceptron in RNN, is a memory cell, which helps preserve the state of the perceptron, hence forming LSTM - Long Short Term Memory. 
 
 ##### Another Example
 
