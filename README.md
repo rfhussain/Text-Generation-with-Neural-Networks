@@ -1,4 +1,4 @@
-# Text Generation with Neural Networks
+# Text Generation with Recurrent Neural Networks
 
 ### Neural Networks Vs Recurrent Neural Network (RNN)
 
